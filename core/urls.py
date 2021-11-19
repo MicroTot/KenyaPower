@@ -1,7 +1,7 @@
 from django.urls import path
 
-from core.views import GeoViweSet
+from core.views import GeoViewSet
 
 urlpatterns = [
-    path('', GeoViweSet.as_view({'get': 'list'}))
+    path('', GeoViewSet.as_view({'get': 'list'}))
 ]
